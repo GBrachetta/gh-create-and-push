@@ -1,0 +1,27 @@
+{
+  "name": "ghcreate",
+  "bin": {
+    "ghcreate": "index.js"
+  },
+  "version": "0.0.1",
+  "description": "A script to create a Github repository from the current folder and push it",
+  "main": "index.js",
+  "keywords": [
+    "cli",
+    "git"
+  ],
+  "type": "module",
+  "author": "Guillermo Brachetta",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.0"
+  },
+  "dependencies": {
+    "execa": "^6.1.0",
+    "inquirer": "^8.2.1",
+    "listr": "^0.14.3",
+    "shelljs": "^0.8.5"
+  }
+}
