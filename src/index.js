@@ -30,7 +30,11 @@ const goAhead = async (repoName, repoDescription, repoType) => {
     },
     {
       title: 'Add .gitignore',
-      task: () => shell.cp('-R', `${templatesPath}/.gitignore`, './'),
+      task: () => shell.cp('-R', `${templatesPath}/gitignore`, './'),
+    },
+    {
+      title: 'Rename .gitignore',
+      task: () => shell.mv('gitignore', '.gitignore'),
     },
     {
       title: 'Add files to stage',

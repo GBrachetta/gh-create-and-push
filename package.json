@@ -1,9 +1,9 @@
 {
-  "name": "ghcreate",
+  "name": "@gbrachetta/ghcreate",
   "bin": {
-    "ghcreate": "index.js"
+    "ghcreate": "src/index.js"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A script to create a Github repository from the current folder and push it",
   "main": "index.js",
   "keywords": [
